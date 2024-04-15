@@ -1,0 +1,47 @@
+.navbar{
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #0B8CBF;
+}
+
+.container-img-text{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0fr 1fr ;
+}
+
+.container{
+    width: 70%;
+}
+
+h1{
+    /* <uniquifier>: Use a unique and descriptive class name
+     <weight>: Use a value from 400 to 700*/
+
+    
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #fff;
+    padding: 0px 20px;
+    font-style: normal;   
+}
+
+img{
+    margin: 10px;
+}
+
+form{
+    margin-top: 30px;
+}
+
+.btn-outline-info:hover{
+    color: #fff;
+    background-color: #0B8CBF;
+    border-color: #0B8CBF;
+}
+
+.btn-outline-info{
+    border-color: #0B8CBF;
+    color: #0B8CBF;
+}
